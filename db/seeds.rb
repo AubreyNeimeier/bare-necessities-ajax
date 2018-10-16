@@ -8,9 +8,9 @@
 
 
 #EVENTS
-a = Event.create!(title: "Work", description: "opener", date: "2018-07-10", date_object: "2018-7-10", start_time: "4pm", end_time: "5pm", user_id: 1 )
-b = Event.create!(title: "workout", description: "legs", date: "2018-07-11", date_object: "2018-07-11", start_time: "9pm", end_time: "10pm", user_id: 1 )
-c = Event.create(title: "yoga", description: "yoga", date: "2018-07-12", date_object: "2018-07-12", start_time: "7am", end_time: "8am", user_id: 1 )
+a = Event.create!(title: "Work", description: "opener", date: "2018-10-16", date_object: "2018-7-10", start_time: "4pm", end_time: "5pm", user_id: 1 )
+b = Event.create!(title: "workout", description: "legs", date: "2018-10-21", date_object: "2018-07-11", start_time: "9pm", end_time: "10pm", user_id: 1 )
+c = Event.create(title: "HALLOWEEN", description: "neighborhood trick or treat begins at 6 pm", date: "2018-10-31", date_object: "2018-07-12", start_time: "6pm", end_time: "8pm", user_id: 1 )
 
 
 

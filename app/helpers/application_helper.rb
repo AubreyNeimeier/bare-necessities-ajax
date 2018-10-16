@@ -10,7 +10,9 @@ module ApplicationHelper
 
     def number_of_blank_days
         date = Date.today - Date.today.day
+        # binding.pry
         date.cwday + 1 
+        # to determine which day of week the first of the month falls on. except in october's case we get date.cwday + 1 is 8. if date.cwday = 7, then we want 1 (because first of october is monday and 1 corresponds to monday)
     end
 
     def add_empty_divs
