@@ -31,5 +31,6 @@ For REQUIREMENTS
 
     Borrowing from the blog domain example, instead of plainly taking the JSON response of the newly created comment and appending it to the DOM, you would create a Comment prototype object and add a function to that prototype to perhaps concatenate (format) the comments authors first and last name. You would then use the object to append the comment information to the DOM.
 
-    -- create an event prototype object?????? review prototypes
-    
+    -- create an event prototype object?????? review prototypes in learn.co
+
+    . 
